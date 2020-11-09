@@ -1,0 +1,96 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Nov 09, 2020 - 2:09:35 PM
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+  \caption{Regression Results} 
+  \label{} 
+\tiny 
+\begin{tabular}{@{\extracolsep{0.4pt}}lD{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & \multicolumn{2}{c}{log(time)} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)}\\ 
+\hline \\[-1.8ex] 
+ courseShort & -0.039^{***} & -0.034^{***} \\ 
+  & (0.012) & (0.003) \\ 
+  & & \\ 
+ log(dist) & 1.116^{***} & 1.117^{***} \\ 
+  & (0.004) & (0.003) \\ 
+  & & \\ 
+ sexM & -0.154^{***} & -0.154^{***} \\ 
+  & (0.011) & (0.011) \\ 
+  & & \\ 
+ strokeBreaststroke & 0.140^{***} & 0.140^{***} \\ 
+  & (0.021) & (0.021) \\ 
+  & & \\ 
+ strokeButterfly & -0.187^{***} & -0.187^{***} \\ 
+  & (0.021) & (0.021) \\ 
+  & & \\ 
+ strokeFreestyle & -0.087^{***} & -0.085^{***} \\ 
+  & (0.017) & (0.017) \\ 
+  & & \\ 
+ strokeMedley & 0.134^{***} & 0.133^{***} \\ 
+  & (0.023) & (0.023) \\ 
+  & & \\ 
+ courseShort:log(dist) & 0.001 &  \\ 
+  & (0.002) &  \\ 
+  & & \\ 
+ courseShort:sexM & -0.012^{***} & -0.012^{***} \\ 
+  & (0.003) & (0.003) \\ 
+  & & \\ 
+ courseShort:strokeBreaststroke & 0.010^{**} & 0.010^{**} \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ courseShort:strokeButterfly & 0.023^{***} & 0.023^{***} \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ courseShort:strokeFreestyle & 0.022^{***} & 0.022^{***} \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ courseShort:strokeMedley & 0.012^{**} & 0.013^{***} \\ 
+  & (0.005) & (0.004) \\ 
+  & & \\ 
+ log(dist):sexM & 0.010^{***} & 0.010^{***} \\ 
+  & (0.002) & (0.002) \\ 
+  & & \\ 
+ log(dist):strokeBreaststroke & -0.005 & -0.005 \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ log(dist):strokeButterfly & 0.034^{***} & 0.034^{***} \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ log(dist):strokeFreestyle & -0.005 & -0.005 \\ 
+  & (0.003) & (0.003) \\ 
+  & & \\ 
+ log(dist):strokeMedley & -0.023^{***} & -0.023^{***} \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ sexM:strokeBreaststroke & -0.007^{*} & -0.007^{*} \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ sexM:strokeButterfly & 0.002 & 0.002 \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ sexM:strokeFreestyle & 0.010^{***} & 0.010^{***} \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ sexM:strokeMedley & 0.004 & 0.004 \\ 
+  & (0.004) & (0.004) \\ 
+  & & \\ 
+ Constant & -1.066^{***} & -1.070^{***} \\ 
+  & (0.018) & (0.016) \\ 
+  & & \\ 
+\hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{446} & \multicolumn{1}{c}{446} \\ 
+R$^{2}$ & \multicolumn{1}{c}{1.000} & \multicolumn{1}{c}{1.000} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{1.000} & \multicolumn{1}{c}{1.000} \\ 
+Residual Std. Error & \multicolumn{1}{c}{0.013 (df = 423)} & \multicolumn{1}{c}{0.013 (df = 424)} \\ 
+F Statistic & \multicolumn{1}{c}{66,439.040$^{***}$ (df = 22; 423)} & \multicolumn{1}{c}{69,732.060$^{***}$ (df = 21; 424)} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
