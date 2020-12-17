@@ -42,7 +42,7 @@ par(mfrow= c(1,2))
 boxplot(swim$time, ylim=c(min(swim$time),max(swim$time)), ylab="Time", 
         main = "Box and Whiskers Plot for Time")
 plot(swim$time, xlab="Observation", ylab="Time", 
-     main="Scatter Plot for Time")
+     main="Scatter Plot for Time") <- 
 dev.off()
 
 pdf("Time by Categories.pdf")

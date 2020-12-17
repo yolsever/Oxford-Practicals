@@ -1,0 +1,123 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, Dec 10, 2020 - 10:29:48 AM
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+  \caption{Regression Results (Dispersion Adjusted)} 
+  \label{} 
+\tiny 
+\begin{tabular}{@{\extracolsep{0.4pt}}lD{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & \multicolumn{1}{c}{docvis} \\ 
+\hline \\[-1.8ex] 
+ employed1 & 0.256 \\ 
+  & (0.371) \\ 
+  & \\ 
+ age & 0.017^{**} \\ 
+  & (0.007) \\ 
+  & \\ 
+ hhninc & -0.157 \\ 
+  & (0.123) \\ 
+  & \\ 
+ married1 & 1.113 \\ 
+  & (1.368) \\ 
+  & \\ 
+ female1 & 0.685^{**} \\ 
+  & (0.285) \\ 
+  & \\ 
+ privateins1 & 0.432^{*} \\ 
+  & (0.260) \\ 
+  & \\ 
+ hhkids1 & -1.541 \\ 
+  & (1.337) \\ 
+  & \\ 
+ addins1 & -3.755 \\ 
+  & (3.963) \\ 
+  & \\ 
+ eductype1 & -0.323 \\ 
+  & (0.508) \\ 
+  & \\ 
+ eductype2 & -0.086 \\ 
+  & (0.516) \\ 
+  & \\ 
+ eductype3 & -0.754 \\ 
+  & (0.637) \\ 
+  & \\ 
+ eductype4 & -0.425 \\ 
+  & (0.537) \\ 
+  & \\ 
+ eductype5 & -1.062^{*} \\ 
+  & (0.575) \\ 
+  & \\ 
+ employed1:age & -0.009 \\ 
+  & (0.007) \\ 
+  & \\ 
+ employed1:married1 & 0.254 \\ 
+  & (0.186) \\ 
+  & \\ 
+ employed1:hhkids1 & -0.278 \\ 
+  & (0.182) \\ 
+  & \\ 
+ employed1:addins1 & -0.529 \\ 
+  & (0.403) \\ 
+  & \\ 
+ age:female1 & -0.008 \\ 
+  & (0.006) \\ 
+  & \\ 
+ age:addins1 & -0.031 \\ 
+  & (0.020) \\ 
+  & \\ 
+ hhninc:married1 & -0.191 \\ 
+  & (0.162) \\ 
+  & \\ 
+ hhninc:hhkids1 & 0.196 \\ 
+  & (0.167) \\ 
+  & \\ 
+ hhninc:addins1 & 0.702 \\ 
+  & (0.487) \\ 
+  & \\ 
+ married1:eductype1 & 0.307 \\ 
+  & (0.619) \\ 
+  & \\ 
+ married1:eductype2 & -0.020 \\ 
+  & (0.633) \\ 
+  & \\ 
+ married1:eductype3 & 0.559 \\ 
+  & (0.752) \\ 
+  & \\ 
+ married1:eductype4 & 0.025 \\ 
+  & (0.684) \\ 
+  & \\ 
+ married1:eductype5 & 0.889 \\ 
+  & (0.680) \\ 
+  & \\ 
+ privateins1:eductype1 & -0.617^{*} \\ 
+  & (0.322) \\ 
+  & \\ 
+ privateins1:eductype2 & -0.529 \\ 
+  & (0.358) \\ 
+  & \\ 
+ privateins1:eductype3 & -0.625 \\ 
+  & (0.571) \\ 
+  & \\ 
+ privateins1:eductype4 & -0.657 \\ 
+  & (0.522) \\ 
+  & \\ 
+ privateins1:eductype5 &  \\ 
+  &  \\ 
+  & \\ 
+ Constant & 1.219 \\ 
+  & (1.124) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{1,198} \\ 
+Log Likelihood & \multicolumn{1}{c}{-2,115.872} \\ 
+Akaike Inf. Crit. & \multicolumn{1}{c}{4,295.745} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
