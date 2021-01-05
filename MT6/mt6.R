@@ -1,4 +1,5 @@
 library(bnlearn)
+library("testthat")
 
 # 1.1
 # Pseudocode for random digraph generation
@@ -19,6 +20,9 @@ library(bnlearn)
 
 melancon <- function(nodes, n) {
   G = empty.graph(nodes)
+  if (n==0 | length(nodes) == 1) {
+    return(G)
+  }
   for (i in 1:n) {
     pick = c(nodes[sample(1:length(nodes), 1)], 
              nodes[sample(1:length(nodes), 1)])
@@ -74,5 +78,32 @@ plot(unlist(times_n))
 # Time complexity for the adjacency list version is still O(|V|^2)
 # Space complexity is still O(|V|^2)
 
-# 1.7
+# 1.7 Validation function
+
+# 1.8 Unit tests
+expect_equal(melancon(letters, 0), empty.graph(letters))
+expect_equal(melancon(letters[1], 10000), empty.graph(letters[1]))
+expect_error(melancon(1,1))
+expect_error(melancon("",10))
+expect_error(melancon(c(),10))
+
+
+# 1.9
+test_that("can draw dags from uniform probability for small number of nodes",
+          {
+            set.seed(2020)
+            dags <- sapply(1:2000,function(iRep) {
+              dag <- melancon(LETTERS[1:3], n = 25)
+              modelstring(dag)
+            })
+            
+            normalized_dag_frequency <- table(dags) / length(dags)
+            
+            expect_true(min(normalized_dag_frequency) >= 0.02)
+            expect_true(max(normalized_dag_frequency) <= 0.05)
+            
+            plot(normalized_dag_frequency, ylim = c(0, 0.05))
+            abline(h = 0.04, col = 2, lwd = 2, lty = 2)
+            }
+          )
 
