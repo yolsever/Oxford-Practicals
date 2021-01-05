@@ -1,0 +1,16 @@
+\documentclass{article}
+\begin{document}
+
+<<include=FALSE>>=
+library(knitr)
+opts_chunk$set(
+concordance=TRUE
+)
+@
+
+Here we show a summary of an \textit{empirical} sample from a $N(2, 1)$.
+<<code-chunk-label>>=
+rand = rnorm(10, mean = 2, sd = 1)
+summary(rand)
+@ 
+\end{document}
